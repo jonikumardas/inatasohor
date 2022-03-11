@@ -12,7 +12,7 @@
             rel="stylesheet"
             integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
             crossorigin="anonymous"
-        />
+            />
 
         <!-- google Montserrat  font  -->
         <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -20,14 +20,13 @@
         <link
             href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap"
             rel="stylesheet"
-        />
+            />
         <link
             rel="stylesheet"
             href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
-            integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
-            crossorigin="anonymous"
+            integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="crossorigin="anonymous"
             referrerpolicy="no-referrer"
-        />
+            />
     </head>
 
     <body>
@@ -41,25 +40,26 @@
                     data-target="#navbarSupportedContent"
                     aria-controls="navbarSupportedContent"
                     aria-expanded="false"
-                    aria-label="Toggle navigation"
-                >
+                    aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
 
                 <div
                     class="collapse navbar-collapse justify-content-end"
-                    id="navbarSupportedContent"
-                >
+                    id="navbarSupportedContent">
                     <ul class="navbar-nav mr-auto">
-                        <li class="nav-link active" role="button" onclick="switchTab( 'posts' )">
+                        <li class="nav-link active" role="button"
+                            onclick="switchTab( 'posts' )">
                             <i class="fa-solid fa-house"></i>
                         </li>
 
-                        <li class="nav-link active" role="button" onclick="switchTab( 'liked' )">
+                        <li class="nav-link active" role="button"
+                            onclick="switchTab( 'liked' )">
                             <i class="fa-solid fa-heart text-danger"></i>
                         </li>
 
-                        <li class="nav-link active" role="button" onclick="switchTab( 'reported' )">
+                        <li class="nav-link active" role="button"
+                            onclick="switchTab( 'reported' )">
                             <i class="fa-solid fa-eye-slash"></i>
                         </li>
                     </ul>
@@ -77,6 +77,44 @@
                 <h1>Reported posts</h1>
             </div>
         </main>
+        <!-- section create here for javascript information  -->
+        <section>
+            <div class="cullomn-3">
+                <div class="javascripte">
+                    <h1>How dose javascript work</h1>
+                    <p> JavaScript is single-threaded programming language.
+                        when the engine starts executing any codes,it starts
+                        with calling the function name,
+                        and when java script will find any error then it stop
+                        code running and When the browser loads the page, the
+                        browser has a built-in interpreter that reads the
+                        JavaScript code it finds in the page and runs it.</p>
+                </div>
+
+                <div class="javascripte">
+                    <h1>Event Loop </h1>
+                    <p> When point during the event loop, the runtime starts
+                        handling the messages on the queue, starting with the
+                        oldest one. To do so, the message is removed from the
+                        queue and its corresponding function is called with the
+                        message as an input parameter. As always, calling a
+                        function creates a new stack frame for that function's
+                        use.
+                    </p>
+                </div>
+                <div class="javascripte">
+                    <h1>Local storage and SessionStorage </h1>
+                    <p>local storage and sessionStorage's work are almost same.
+                        both ar keep data store. but local storage will save.The
+                        data does not expire. It remains after the browser
+                        restart and even OS reboot.
+                        and sessionstorage keep data for less time. if anybody
+                        do reload or going to another tab data will clear. it
+                        can't keep data for next acction,</p>
+                </div>
+            </div>
+
+        </section>
         <footer></footer>
 
         <!-- add javascript  file  -->
